@@ -1,6 +1,6 @@
 .top-container{
   background-color: #FFFFFF;
-  heigh: 320px;
+  heigh: 321px;
   width: 65%; /* Задаем ширину в 65% от ширины родительского элемента */
   margin: 0 auto; /* Для центрирования контейнера по горизонтали */
 }
