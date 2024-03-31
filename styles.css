@@ -1,0 +1,92 @@
+.top-container{
+  background-color: #FFFFFF;
+  heigh: 321px;
+  width: 65%; /* Задаем ширину в 65% от ширины родительского элемента */
+  margin: 0 auto; /* Для центрирования контейнера по горизонтали */
+}
+
+.middle-container {
+  background-color: #FFFFFF;
+  height: 1700px;
+  width: 65%; /* Задаем ширину в 80% от ширины родительского элемента */
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Для центрирования контейнера по горизонтали */
+  padding: 20px; /* Добавляем отступы вокруг контейнера */
+  text-align: left; /* Центрируем текст */
+}
+
+.photo {
+	margin-right: 20px;
+	float: left;
+}
+
+.table {
+	  	margin: 20px 20px 20px 0;
+		border-spacing: 0px;
+}
+ .custom-text {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .table, th, td {
+      border: 1px solid black;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    /* Добавлен стиль для списков */
+    ul {
+      list-style-type: disc;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+h1 {
+  color: #330000;
+  font-size: 50px;
+    	margin: 0px;
+  font-family: 'Montserrat Alternates';
+}
+
+h2 {
+	color: #808080;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+  	margin: 20px 20px 20px 0;
+}
+
+h3 {
+	color: #808080;
+	font-family: 'Montserrat', light;
+	font-size: 15px;
+	font-weight: 700;
+		  	margin: 20px;
+}
+
+p {
+  line-height: 2;
+  margin: 20px 20px 20px 0;
+}
+
+.underlined-text {
+  text-decoration: underline; /* Добавление подчеркивания */
+}
+
+.custom-text {
+  color: #330000; /* Цвет текста */
+  font-family: 'Montserrat Alternates', sans-serif;
+}
